@@ -12,7 +12,7 @@ $ProfileName = "EC2InstanceProfile-$AppName"
 $env:AWS_PROFILE = "default"
 # $env:AWS_PAGER = "" # Removing this as we use --no-cli-pager
 
-Write-Host "Starting Deployment..." -ForegroundColor Cyan
+Write-Host "Starting Deployment....." -ForegroundColor Cyan
 
 # Helper function to check if resource exists
 function Get-Resource {
@@ -61,7 +61,7 @@ if (-not $ProfileArn) {
 }
 
 # 2. Key Pair
-Write-Host "Configuring Key Pair..."
+Write-Host "Configuring Key Pair....."
 if (-not (Test-Path "$KeyName.pem")) {
     aws ec2 create-key-pair --key-name $KeyName --query "KeyMaterial" --output text --no-cli-pager > "$KeyName.pem" 2>$null
 }
