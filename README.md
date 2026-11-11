@@ -12,10 +12,9 @@
 ![Status](https://img.shields.io/badge/Status-Production--Ready-green)
 
 Nexora is a **full-stack ecommerce platform** featuring:
-- **Backend**: Next.js 13+ (App Router), SSR, Prisma, Docker, AWS ECS/ECR deployment
+- **Backend**: Next.js 13+ (App Router), SSR, Prisma, Docker,
 - **Frontend**: React + Vite + TailwindCSS + shadcn UI, inspired by Amazon/Flipkart
 - **Complete CI/CD Pipeline** for automated deployment
-- **AWS Cloud Deployment (ECR + ECS Fargate + Load Balancer + EC2 frontend)**
 
 ---
 
