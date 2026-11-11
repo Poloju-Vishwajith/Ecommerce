@@ -109,13 +109,4 @@ The project is organized into the following folders:
 * `styles`: Global CSS styles and themes for the application.
 
 
-## Screenshots
-[Placeholder for screenshot 1]
-[Placeholder for screenshot 2]
-[Placeholder for screenshot 3]
-
-
-## API Reference
-The API reference is available at
-
 
