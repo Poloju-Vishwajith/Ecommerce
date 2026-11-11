@@ -1,4 +1,4 @@
-﻿# Nexora - Full Stack Ecommerce Platform
+﻿# E-Commerce Platform - Full Stack Ecommerce Platform
 
 ![Next.js](https://img.shields.io/badge/Next.js-13+-black)
 ![React](https://img.shields.io/badge/React-18-blue)
