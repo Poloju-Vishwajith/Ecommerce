@@ -1,4 +1,4 @@
-# SurajHub - Complete Project Structure & Architecture Guide
+# Complete Project Structure & Architecture Guide
 
 ## 🎯 Project Overview
 SurajHub is a **production-ready e-commerce platform** built with modern tech stack:
