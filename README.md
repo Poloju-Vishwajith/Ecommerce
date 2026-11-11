@@ -1,28 +1,11 @@
 ﻿# E-Commerce Platform - Full Stack Ecommerce Platform
-
-![Next.js](https://img.shields.io/badge/Next.js-13+-black)
-![React](https://img.shields.io/badge/React-18-blue)
-![Vite](https://img.shields.io/badge/Vite-Fast-purple)
-![Prisma](https://img.shields.io/badge/Prisma-ORM-blue)
-![Tailwind](https://img.shields.io/badge/TailwindCSS-Styling-teal)
-![Docker](https://img.shields.io/badge/Docker-Ready-blue)
-![AWS](https://img.shields.io/badge/AWS-ECS%20|%20ECR%20|%20EC2-orange)
-![CI/CD](https://img.shields.io/badge/GitHub%20Actions-Automated-success)
-![Stripe](https://img.shields.io/badge/Stripe-Payment-purple)
-![Status](https://img.shields.io/badge/Status-Production--Ready-green)
-
-Nexora is a **full-stack ecommerce platform** featuring:
-- **Backend**: Next.js 13+ (App Router), SSR, Prisma, Docker,
-- **Frontend**: React + Vite + TailwindCSS + shadcn UI, inspired by Amazon/Flipkart
-- **Complete CI/CD Pipeline** for automated deployment
-
 ---
 
 # Project Architecture
 
 GitHub -> GitHub Actions CI/CD -> Docker Build -> Push to AWS ECR -> ECS Fargate Cluster -> Load Balancer -> Live Production
 
-Frontend: React + Vite on EC2 (Nginx build hosting)
+Frontend: React + Vite on EC2 
 Backend: Next.js SSR App on ECS + ECR with Prisma DB
 Database: PostgreSQL / MySQL / MongoDB supported
 
@@ -85,16 +68,6 @@ Here are some of the key features of the E-commerce Platform:
 9. **Third-Party Integrations**: Integrate with popular third-party services to enhance platform functionality and provide users with a seamless experience.
 10. **Security and Compliance**: Ensure the security and integrity of user data with industry-standard encryption protocols and secure authentication mechanisms.
 
-
-## Tech Stack Table
-| Category | Technology |
-| --- | --- |
-| Frontend | React, Next.js, Tailwind CSS |
-| Backend | Node.js, Prisma, PostgreSQL |
-| Tools | Git, GitHub, Visual Studio Code |
-| Authentication | JSON Web Tokens (JWT), NextAuth |
-| Payment Gateways | Stripe, PayPal |
-| Shipping Integrations | USPS, UPS, FedEx |
 
 
 ## Project Structure
